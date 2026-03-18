@@ -1,0 +1,110 @@
+﻿# ========== 模型文件（全部不上传）==========
+# 你的各种模型文件夹
+15b_model/
+r1_model_1.5b_hf/
+r1_model_7b/
+r1_model_7b_awq/
+r1_model_7b_hf/
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+
+# ========== Python 环境 ==========
+agent/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+
+# ========== 数据文件 ==========
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ========== 前端依赖 ==========
+figmaUI/node_modules/
+figmaUI/dist/
+figmaUI/build/
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ========== Zotero 相关 ==========
+zotero-main/
+zotero-connectors/
+*.xpi
+zotero/
+
+# ========== 环境变量和配置文件 ==========
+.env
+.env.local
+.env.*.local
+config.local.py
+*.conf
+
+# ========== 日志和缓存 ==========
+*.log
+logs/
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+.npm/
+.eslintcache
+.stylelintcache
+
+# ========== IDE 编辑器 ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== 操作系统生成文件 ==========
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========== 临时文件 ==========
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# ========== 测试和构建产物 ==========
+test_output/
+coverage/
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# ========== 特定文件排除 ==========
+# 如果你有密码或密钥文件
+secrets/
+keys/
+*.pem
+*.key
+
+# 启动脚本备份（如果你不想上传）
+*.sh
+*.bat
